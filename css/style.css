@@ -1,0 +1,180 @@
+/*KEBA & KEBAS stylsheet */
+
+/*  BODY  */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: white;
+  color: #161a30;
+	font-family: "Times, Times New Roman, serif";
+}
+
+/*  HEAD  */
+
+.head-container {
+	background-color: #161A30;
+	color: white;
+	padding: 20px 150px 20px 150px;
+}
+
+.logo-container,
+.text-img-container {
+	display: flex;
+}
+
+.text {
+  margin-right: 40px;
+}
+
+.text-p {
+	font-size: 16px;
+	color: #c9c9c9;
+}
+
+.text-img-container {
+	margin: 100px 0 100px 0;
+	justify-content: space-between;
+}
+
+button {
+	margin-top: 10px;
+	height: 35px;
+	width: 120px;
+	font-weight: bold;
+	border-radius: 10px;
+  border: none;
+	background-color: #4173f2;
+	color: white;
+}
+
+.logo {
+	font-size: 20px;
+}
+
+.links-list {
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+}
+
+.link2 {
+	margin: 0 10px 0 10px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+/* INFO CONTAINER */
+
+.info-container {
+  padding: 40px 270px 40px 270px;
+}
+
+.info-text,
+.menu-img,
+.menu-subtext {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-subtext p {
+  width: 140px;
+  color: #545454;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-text {
+  font-size: 20px;
+}
+
+.menu-img img {
+  height: 140px;
+  width: 140px;
+  margin-top: 40px;
+  background-color: grey;
+  border: #161a30 solid;
+  border-radius: 10px;
+}
+
+/* FAKE QUOTE */
+
+.fake-client {
+  background-color: #B6BBC4;
+  padding: 100px 400px 100px 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.fake-quote {
+  font-size: 28px;
+}
+
+.fake-name {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+}
+
+/* URGENT */
+
+.urgent-container {
+  padding: 50px 100px 50px 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urgent-sub {
+  background-color: #4173f2;
+  width: 1000px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.urgent-text h3 {
+  font-size: 24px;
+}
+
+.urgent-text p {
+  font-weight: lighter;
+}
+
+.urgent-button button {
+  border: white solid 2px;
+}
+
+/* FOOTER */
+
+.footer {
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #161A30;
+	color: white;
+}
